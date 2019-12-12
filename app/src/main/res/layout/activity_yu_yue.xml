@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#141931"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_20">
+        <ImageView
+            android:id="@+id/img_back_yuyue"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="28dp"
+            android:src="@mipmap/left_shape"
+            android:layout_width="16dp"
+            android:layout_height="16dp"/>
+        <TextView
+            android:layout_marginTop="37dp"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:text="我的预约"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/recycler_yuyue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:background="@color/back">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simp_xiangqing_yingping_1"
+        android:layout_width="@dimen/dp_44"
+        android:layout_height="@dimen/dp_44"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_24"
+        app:roundAsCircle="true"
+        fresco:failureImage="@mipmap/shibai"
+        fresco:placeholderImage="@mipmap/zhanwei" />
+    <TextView
+        android:id="@+id/text_yingping_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_12"
+        android:layout_toRightOf="@+id/simp_xiangqing_yingping_1"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_34"
+        android:textColor="@color/write" />
+
+    <TextView
+        android:id="@+id/text_yingping_fen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simp_xiangqing_yingping_1"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:textColor="@color/write" />
+    <TextView
+        android:id="@+id/text_yingping_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_12"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_34"
+        android:textColor="@color/write" />
+    <TextView
+        android:id="@+id/text_yingping_yp"
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_yingping_fen"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_14"
+        android:textColor="@color/write" />
+    <ImageView
+        android:id="@+id/image_dianzan"
+        android:layout_width="@dimen/dp_18"
+        android:layout_height="@dimen/dp_18"
+        android:src="@mipmap/zan"
+        android:layout_below="@id/text_yingping_yp"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_25" />
+    <TextView
+        android:id="@+id/text_dianzan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dp_10"
+        android:layout_toRightOf="@id/image_dianzan"
+        android:layout_marginLeft="@dimen/dp_7"
+        android:textColor="@color/write"
+        android:layout_below="@id/text_yingping_yp"
+        android:layout_marginTop="@dimen/dp_22" />
+    <View
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_2"
+        android:paddingLeft="@dimen/dp_24"
+        android:paddingRight="@dimen/dp_24"
+        android:layout_below="@id/text_dianzan"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@color/blue_s"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/relay_choose_seat"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:button="@null"
+        android:id="@+id/zuo_che"
+        android:background="@drawable/seat_selector"
+        android:layout_width="@dimen/dp_18"
+        android:layout_height="@dimen/dp_18"
+        android:visibility="gone"/>
+    <CheckBox
+        android:button="@null"
+        android:id="@+id/zuo_che2"
+        android:enabled="false"
+        android:background="@drawable/myyy_shape"
+        android:layout_width="@dimen/dp_18"
+        android:layout_height="@dimen/dp_18"
+        android:visibility="gone"/>
+</RelativeLayout>

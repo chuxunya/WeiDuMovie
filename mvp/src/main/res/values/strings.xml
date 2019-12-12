@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mvp</string>
+    <color name="ba">#141931</color>
+    <color name="wr">#FFFFFF</color>
+</resources>

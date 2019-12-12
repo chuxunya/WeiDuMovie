@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dp_110"
+    android:layout_height="wrap_content"
+    android:id="@+id/hot_lin"
+    android:background="@color/back">
+<com.facebook.drawee.view.SimpleDraweeView
+    android:id="@+id/image_ying"
+    android:background="@drawable/banner"
+    android:layout_marginLeft="@dimen/dp_5"
+    android:layout_marginRight="@dimen/dp_5"
+    android:layout_marginBottom="@dimen/dp_10"
+    app:roundedCornerRadius="@dimen/dp_5"
+    android:layout_width="@dimen/dp_96"
+    android:layout_height="@dimen/dp_120"/>
+<TextView
+    android:id="@+id/score_reitem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/sp_12"
+    android:layout_alignBottom="@id/image_ying"
+    android:layout_centerHorizontal="true"
+    android:textColor="@color/cardview_light_background"/>
+<TextView
+    android:id="@+id/text_name_ying"
+    android:layout_below="@id/image_ying"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/sp_14"
+    android:textStyle="bold"
+    android:layout_centerHorizontal="true"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:textColor="@color/cardview_light_background"/>
+<Button
+    android:id="@+id/rm_gp"
+    android:text="购票"
+    android:textColor="@color/cardview_light_background"
+    android:background="@drawable/btn"
+    android:layout_below="@id/text_name_ying"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_width="@dimen/dp_45"
+    android:layout_height="@dimen/dp_20"/>
+</RelativeLayout>

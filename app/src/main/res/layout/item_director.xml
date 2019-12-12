@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/back">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/dire_item"
+        android:layout_width="@dimen/dp_98"
+        app:roundedCornerRadius="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        android:layout_height="@dimen/dp_120"/>
+    <TextView
+        android:id="@+id/direc_name_itme"
+        android:layout_below="@id/dire_item"
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+include ':app', ':mvp'/*, ':demo'*//*, ':actvity'*/
+rootProject.name='WeiDuMovie'
